@@ -5,9 +5,45 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>To Do</title>
   <link rel="stylesheet" href="./style.css">
-  <script src="./main.js"></script>
+  <script src="./main.js" defer></script>
 </head>
 <body>
-  <div class="content"></div>
+  <div class="content">
+    <div class="header">
+      <h1>My Todo List</h1>
+    </div>
+    <div class="sidebar">
+      <ul>
+        <li>project 1</li>
+        <li>project 2</li>
+        <li>project 3</li>
+        <li><button>New Project</button></li>
+      </ul>
+    </div>
+    <div class="todo">
+      <h2>Project Title</h2>
+      <button type="button" id="new-todo">New Item</button>
+      <table>
+        <thead>
+          <th>Title</th>
+          <th>Duedate</th>
+          <th>Priority</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Item 1</td>
+            <td>11/11/11</td>
+            <td>Low</td>
+            <td>
+              <button>View</button>
+            </td>
+            <td>
+              <button>Delete</button>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </body>
 </html>

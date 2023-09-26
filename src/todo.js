@@ -3,6 +3,6 @@ export default class Todo {
     this.title = title;
     this.dueDate = dueDate;
     this.priority = priority;
-    this.desctription = description;
+    this.description = description;
   }
 }
